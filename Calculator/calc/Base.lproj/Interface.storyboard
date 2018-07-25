@@ -14,7 +14,78 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="calc" customModuleProvider="target">
                     <items>
-                        <label alignment="left" text="Hello" id="TtN-ln-ega"/>
+                        <group width="1" height="0.20000000000000001" alignment="left" spacing="4" id="fot-xZ-oKs">
+                            <items>
+                                <button width="0.23999999999999999" height="1" alignment="left" title="C" id="05C-z3-u1h">
+                                    <color key="backgroundColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </button>
+                                <label width="0.66000000000000003" height="1" alignment="right" text="0" textAlignment="right" id="uUt-oE-hrD"/>
+                            </items>
+                        </group>
+                        <group width="1" height="0.20000000000000001" alignment="left" spacing="4" id="u5y-lq-i4i">
+                            <items>
+                                <button width="0.25" height="1" alignment="center" title="1" id="E20-do-W9J">
+                                    <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </button>
+                                <button width="0.25" height="1" alignment="center" title="2" id="dEh-Pf-A4e">
+                                    <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </button>
+                                <button width="0.25" height="1" alignment="center" title="3" id="05P-TA-sfk">
+                                    <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </button>
+                                <button width="0.25" height="1" alignment="center" title="-" id="WQ0-sK-x3d">
+                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.20000000000000001" alignment="left" spacing="4" id="Y4n-KJ-F7R">
+                            <items>
+                                <button width="0.25" height="1" alignment="center" title="4" id="oHm-Sm-C30">
+                                    <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </button>
+                                <button width="0.25" height="1" alignment="center" title="5" id="DVU-eW-Pva">
+                                    <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </button>
+                                <button width="0.25" height="1" alignment="center" title="6" id="LQM-ED-txV">
+                                    <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </button>
+                                <button width="0.25" height="1" alignment="center" title="×" id="7rQ-NM-7mm">
+                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.20000000000000001" alignment="left" spacing="4" id="xPb-Ct-3i8">
+                            <items>
+                                <button width="0.25" height="1" alignment="center" title="7" id="aQB-Tb-Roa">
+                                    <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </button>
+                                <button width="0.25" height="1" alignment="center" title="8" id="XeW-Vo-a8j">
+                                    <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </button>
+                                <button width="0.25" height="1" alignment="center" title="9" id="foe-y4-brc">
+                                    <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </button>
+                                <button width="0.25" height="1" alignment="center" title="÷" id="aU1-jn-fDz">
+                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.20000000000000001" alignment="left" spacing="4" id="k4v-UY-eih">
+                            <items>
+                                <button width="0.25" height="1" alignment="center" title="0" id="FGe-I5-Jym">
+                                    <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </button>
+                                <button width="0.25" height="1" alignment="center" title="." id="Xfc-zW-9nB">
+                                    <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </button>
+                                <button width="0.25" height="1" alignment="center" title="=" id="cP7-sC-ZZx">
+                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </button>
+                                <button width="0.25" height="1" alignment="center" title="+" id="mNp-h3-5Cm">
+                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </button>
+                            </items>
+                        </group>
                     </items>
                 </controller>
             </objects>
